@@ -12,4 +12,4 @@ RUN ./manage.py makemigrations
 
 RUN ./manage.py migrate
 
-CMD ./manage.py runserver 127.0.0.1:8002
+CMD ./manage.py runserver 0.0.0.0:8002
